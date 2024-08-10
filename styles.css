@@ -1,0 +1,31 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.scratch-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container {
+    position: relative;
+}
+
+.bottom-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.top-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: url('https://cursorstore.com/uploads/cursors/hoverJdjmdN.svg') 16 16, auto; /* SVG kursor */
+}
